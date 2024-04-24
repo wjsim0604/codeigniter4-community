@@ -1,0 +1,21 @@
+{
+  "name": "commnunity-ws",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "env-cmd -e production node ./bin/app.js",
+    "build": "babel ./src -d ./bin -D",
+    "debug": "env-cmd -e development nodemon --watch src --exec node app.js"
+  },
+  "dependencies": {
+    "async": "^3.2.5",
+    "cors": "^2.8.5",
+    "env-cmd": "^10.1.0",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.0",
+    "socket.io": "^4.7.4"
+  }
+}

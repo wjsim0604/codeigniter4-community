@@ -1,0 +1,134 @@
+* {
+    font-size: 12px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: inherit;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a.home:hover {
+    text-decoration: none;
+}
+.header-top-01 {
+    height: 50px;
+}
+.header-top-02 {
+    height: 42px;
+}
+.main-layout {
+    min-height: 750px;
+}
+.category-title {
+    display: none;
+}
+.chat-area {
+    width: 100%;
+    height: 550px;
+}
+.chat-area .chat-content-wrapper {
+    width: 100%;
+    height: calc(100% - 35px);
+    overflow-y: auto;
+    word-break: break-all;
+}
+.chat-area .chat-input-wrapper {
+    width: 100%;
+    height: 35px;
+}
+.chat-area .chat-input-wrapper .chat-input {
+    border: none;
+    width: 90%;
+}
+.chat-area .chat-input-wrapper .chat-enter {
+    width: 11%;
+}
+.chat-area .chat-input-wrapper .chat-enter .chat-enter-icons {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url(/img/icons/arrow-return-left.svg);
+    filter: invert(100%);
+}
+.summary-notice-wrapper {
+    height: 200px;
+    min-height: 200px;
+}
+.summary-notice-wrapper .notice-item {
+    cursor: pointer;
+}
+.summary-notice-wrapper .notice-item:not(:last-child) {
+    border-bottom: 1px solid #eee;
+}
+.summary-notice-wrapper .notice-item:hover {
+    color: #29c05e;
+    text-decoration: none;
+}
+.board-ranking-wrapper {
+    height: 350px;
+    min-height: 350px;
+}
+.board-ranking-wrapper .ranking-tab {
+    cursor: pointer;
+}
+.board-ranking-wrapper .ranking-item:not(:last-child) {
+    border-bottom: 1px solid #eee;
+}
+.board-ranking-wrapper .ranking-item:hover {
+    color: #29c05e;
+    text-decoration: none;
+}
+.board-mini {
+    font-size: 10px;
+}
+#chat-open {
+    display: none;
+}
+#chat-manager {
+    display: block;
+}
+footer.footer {
+    height: 300px;
+}
+#board-content-wrapper {
+    min-height: 400px;
+}
+
+#write-form #write-content {
+    width: 95%;
+}
+
+@media (max-width: 992px) {
+    .category-title {
+        display: block;
+        font-size: 14px;
+    }
+    #chat-open {
+        display: block;
+    }
+    #chat-manager {
+        display: none;
+    }
+    .board-mini {
+        font-size: 8px;
+    }
+    footer.footer {
+        height: 100px;
+    }
+    .main-layout {
+        height: 100%;
+        max-height: max-content;
+    }
+    .header-top-01 {
+        height: 40px;
+    }
+    .header-top-02 {
+        height: max-content;
+    }
+    #write-form #write-content {
+        width: 340px;
+    }
+}
