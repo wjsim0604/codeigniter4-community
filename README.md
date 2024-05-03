@@ -1,5 +1,5 @@
 # php(codeigniter4)와 node.js(채팅서버)를 이용한 커뮤니티 사이트 입니다.
-- 24.04.15 ~ 24.04.24
+- 24.04.15 ~ 업데이트 중
 
 # 실행방법
 - 로컬 서버 시작 시 cd community로 이동하여 php spark serve 를 입력하여 실행
